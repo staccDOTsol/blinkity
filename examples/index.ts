@@ -14,7 +14,7 @@ app.use('/*', cors());
 
 // <--Actions-->
 app.route('/api/donate', donate);
-app.route('/api/jupiter/swap', jupiterSwap);
+app.route('/', jupiterSwap);
 app.route('/api/helius/stake', heliusStake);
 app.route('/api/sanctum/trade', sanctumTrade);
 app.route('/api/tensor/buy-floor', tensorBuyFloor);
